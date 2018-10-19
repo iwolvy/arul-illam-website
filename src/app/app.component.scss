@@ -1,0 +1,16 @@
+@import 'styles/_variables.scss';
+
+.headerMenu {
+    button {
+        font-weight: 600;
+        color: $common-font-color;
+    }
+    .activeHeader {
+        button {
+            background-color: $common-font-color;
+            color: $font-white;
+            margin: 0 10px;
+            
+        }
+    }
+}

@@ -1,4 +1,14 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div>
-  ARUL ILLAM WEBSITE
-</div>
+<mat-card>
+    <img src="../assets/images/logo.png" alt="logo"/>
+    <nav class="floatRight headerMenu">
+        <a routerLink="/home" routerLinkActive="activeHeader"><button mat-button>Home</button></a>
+        <a routerLink="/about" routerLinkActive="activeHeader"><button mat-button>Our Story</button></a>
+        <a routerLink="/join-us" routerLinkActive="activeHeader"><button mat-button>Get Involved</button></a>
+        <a routerLink="/sponsor" routerLinkActive="activeHeader"><button mat-button>Sponsor</button></a>
+        <a routerLink="/gallery" routerLinkActive="activeHeader"><button mat-button>Gallery</button></a>
+        <a routerLink="/contact" routerLinkActive="activeHeader"><button mat-button>Contact Us</button></a>
+    </nav>
+</mat-card>
+<router-outlet></router-outlet>
+ 
