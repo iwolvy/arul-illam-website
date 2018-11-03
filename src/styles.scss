@@ -1,18 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import 'assets/styles/reset';
 @import 'assets/styles/variables';
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
 }
 
 .floatRight {
-    float: right;
+  float: right;
 }
-  
+
 .floatLeft {
-    float: left;
+  float: left;
 }
